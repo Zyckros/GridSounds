@@ -22,7 +22,7 @@ jobs:
       - name: Build APK
         uses: gradle/actions/setup-gradle@v3
         with:
-          arguments: assembleRelease
+          arguments: assembleDebug
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
